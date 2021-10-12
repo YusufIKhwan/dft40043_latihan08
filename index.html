@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form lagi</title>
+</head>
+<body>
+    <form enctype="multipart/form-data" action="simpan.html" method="post">
+        <table>
+            <tr>
+                <td>Gambar</td>
+                <td>
+                    <input type="file" name="gambar">
+                </td>
+            </tr>
+            <tr>
+                <td>Kereta</td>
+                <td>
+                    <select name="Kereta" required>
+                        <option value="">Sila Pilih</option>
+                        <optgroup label="JDM">
+                        <option>GTR</option>
+                        <option>Supra</option>
+                        </optgroup>
+                        <optgroup label="Roadster">
+                        <option>Mustang</option>
+                        <option>Challanger Demon</option>
+                    </optgroup>
+                    <optgroup label="HyperCar">
+                        <option>Lamborghini</option>
+                        <option>Ferari</option>
+                        <option>Pagani</option>
+                    </optgroup>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <button type="submit">SIMPAN</button>
+    </form>
+</body>
+</html>
